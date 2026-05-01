@@ -1,73 +1,147 @@
-# React + TypeScript + Vite
+# Haris Ijaz Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Professional portfolio website for Haris Ijaz, a Java Spring Boot and React Developer. The site highlights backend expertise, full-stack project work, technical skills, and contact details for freelance and remote opportunities.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- TypeScript
+- Tailwind CSS
+- Vite
+- ESLint
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive dark theme for mobile, tablet, and desktop
+- Sticky navbar with smooth scrolling and active section highlighting
+- Professional hero, about, skills, projects, experience, contact, and footer sections
+- Strong project cards with tech badges, feature lists, GitHub buttons, and live demo buttons
+- Data-driven project and skill content for easy future updates
+- Ready for Vercel deployment
 
-## Expanding the ESLint configuration
+## Project Sections
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Home
+- About
+- Skills
+- Projects
+- Contact
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Highlighted Projects
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Workmate: Full-stack workflow and task management application
+- CareSync: Full-stack healthcare management system
+- Fitness Application: Spring Boot backend service for fitness-related operations
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Project data is stored in:
+
+```text
+src/data/portfolio.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Folder Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+src/
+  components/
+    Badge.tsx
+    ProjectCard.tsx
+    SectionHeading.tsx
+  data/
+    portfolio.ts
+  sections/
+    About.tsx
+    Contact.tsx
+    Experience.tsx
+    Footer.tsx
+    Hero.tsx
+    Navbar.tsx
+    Projects.tsx
+    Skills.tsx
+  types/
+    portfolio.ts
+  App.tsx
+  index.css
+  main.tsx
 ```
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal, usually:
+
+```text
+http://127.0.0.1:5173
+```
+
+## Available Scripts
+
+Run local development:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+Run lint checks:
+
+```bash
+npm run lint
+```
+
+## Updating Portfolio Content
+
+Edit the main portfolio content in:
+
+```text
+src/data/portfolio.ts
+```
+
+You can update:
+
+- Contact details
+- Navigation items
+- Skill groups
+- Projects
+- Live demo links
+- GitHub repository links
+
+## Deployment
+
+This project is ready to deploy on Vercel.
+
+Recommended Vercel settings:
+
+- Framework Preset: Vite
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
+
+## Contact
+
+- Name: Haris Ijaz
+- Title: Java Spring Boot & React Developer
+- Phone: 03214816800
+- Email: harisijaz278@gmail.com
