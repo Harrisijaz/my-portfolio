@@ -34,7 +34,13 @@ export function Hero() {
 
         <div className="rounded-lg border border-white/10 bg-white/[0.04] p-6 shadow-2xl shadow-black/30">
           <div className="grid gap-4">
-            {['Next.js + React UI', 'Laravel + Node.js APIs', 'Flutter mobile apps', 'AI, CMS & SaaS workflows'].map(
+            {[
+              'Java + Spring Boot APIs',
+              'Laravel + Node.js APIs',
+              'Next.js + React UI',
+              'Flutter mobile apps',
+              'AI, CMS & SaaS workflows',
+            ].map(
               (item) => (
                 <div key={item} className="rounded-lg border border-white/10 bg-slate-950/70 p-5">
                   <p className="text-lg font-semibold text-white">{item}</p>
