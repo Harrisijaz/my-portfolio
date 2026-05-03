@@ -4,17 +4,17 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-300">
-            Java Spring Boot & React Developer
+            Full-Stack Web, Mobile & AI Developer
           </p>
           <h1 className="mt-5 max-w-4xl text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
             Haris Ijaz
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-8 text-slate-200">
-            I build scalable backend systems and full-stack web applications
+            I build scalable web platforms, mobile apps, AI workflows, and CMS/ecommerce solutions.
           </p>
           <p className="mt-5 max-w-2xl text-base leading-7 text-slate-400">
-            Backend-focused software engineer specializing in Spring Boot APIs, security,
-            performance, and clean full-stack delivery with React and TypeScript.
+            Full-stack developer experienced with Next.js, Laravel, Node.js, Angular, Flutter,
+            Spring Boot, WordPress, Shopify, secure APIs, dashboards, and production business systems.
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <a
@@ -34,7 +34,7 @@ export function Hero() {
 
         <div className="rounded-lg border border-white/10 bg-white/[0.04] p-6 shadow-2xl shadow-black/30">
           <div className="grid gap-4">
-            {['Secure REST APIs', 'JWT, OAuth, RBAC', 'React + TypeScript UI', 'Database performance'].map(
+            {['Next.js + React UI', 'Laravel + Node.js APIs', 'Flutter mobile apps', 'AI, CMS & SaaS workflows'].map(
               (item) => (
                 <div key={item} className="rounded-lg border border-white/10 bg-slate-950/70 p-5">
                   <p className="text-lg font-semibold text-white">{item}</p>

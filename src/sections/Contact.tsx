@@ -8,7 +8,7 @@ export function Contact() {
         <SectionHeading
           eyebrow="Contact"
           title="Open for freelance and remote opportunities"
-          description="Send a message for Spring Boot APIs, secure backend systems, or full-stack React development."
+          description="Send a message for web apps, Laravel or Node.js APIs, Next.js/Angular frontends, Flutter apps, AI integrations, WordPress, Shopify, or CRM/SaaS systems."
         />
         <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
           <div className="rounded-lg border border-white/10 bg-white/[0.04] p-6">

@@ -19,6 +19,7 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       'Java',
       'Spring Boot',
+      'Node.js',
       'Laravel',
       'PHP',
       'REST APIs',
@@ -36,6 +37,7 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       'React.js',
       'Next.js',
+      'Angular',
       'TypeScript',
       'JavaScript (ES6+)',
       'Tailwind CSS',
@@ -50,6 +52,10 @@ export const skillGroups: SkillGroup[] = [
   {
     title: 'Mobile & AI',
     skills: ['Flutter', 'iOS & Android', 'GPT API Integration', 'AI Transcription', 'Medical Note Generation'],
+  },
+  {
+    title: 'CMS',
+    skills: ['WordPress', 'Shopify'],
   },
   {
     title: 'Platforms & Tools',

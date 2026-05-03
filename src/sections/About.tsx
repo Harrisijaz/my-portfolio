@@ -6,14 +6,23 @@ export function About() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="About"
-          title="Backend expertise with full-stack delivery"
-          description="I focus on building reliable server-side systems, secure APIs, and React interfaces that are clear, fast, and ready for real users."
+          title="Full-stack delivery across web, mobile, AI, and CMS"
+          description="I build production-ready platforms with secure backends, fast frontends, mobile apps, AI integrations, and CMS/ecommerce workflows."
         />
         <div className="grid gap-6 md:grid-cols-3">
           {[
-            ['Backend Systems', 'Strong experience building scalable Spring Boot services, REST APIs, and modular backend features.'],
-            ['Security First', 'Practical implementation of JWT, OAuth, RBAC, and clean access control for production applications.'],
-            ['Performance Mindset', 'Clean architecture, optimized database handling, and maintainable code for long-term growth.'],
+            [
+              'Backend Systems',
+              'Strong experience building scalable APIs and admin systems with Java, Spring Boot, Laravel, Node.js, RBAC, and SQL-backed workflows.',
+            ],
+            [
+              'Frontend & Mobile',
+              'Clean delivery with Next.js, React, Angular, TypeScript, Flutter, Tailwind CSS, Bootstrap, and responsive user interfaces.',
+            ],
+            [
+              'Business Platforms',
+              'Practical experience with SaaS products, CRM/ERP dashboards, EdTech marketplaces, AI features, WordPress, and Shopify.',
+            ],
           ].map(([title, text]) => (
             <article key={title} className="rounded-lg border border-white/10 bg-white/[0.04] p-6">
               <h3 className="text-xl font-semibold text-white">{title}</h3>

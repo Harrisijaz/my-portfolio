@@ -7,8 +7,9 @@ export function Experience() {
         <SectionHeading eyebrow="Experience" title="Freelance / Personal Projects" />
         <div className="rounded-lg border border-cyan-300/20 bg-cyan-300/[0.06] p-7 text-center">
           <p className="text-lg leading-8 text-slate-100">
-            Developed scalable backend systems and full-stack applications using modern technologies like
-            Spring Boot and React.
+            Developed full-stack products across EdTech, construction, healthcare, SaaS, CRM/ERP, CMS,
+            and AI workflows using Next.js, Laravel, Node.js, Angular, Flutter, React, Spring Boot,
+            WordPress, and Shopify.
           </p>
         </div>
       </div>
