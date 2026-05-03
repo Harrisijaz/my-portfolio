@@ -32,13 +32,22 @@ export function Contact() {
             </div>
           </div>
 
-          <form className="rounded-lg border border-white/10 bg-slate-900/80 p-6">
+          <form
+            action={`https://formsubmit.co/${contactInfo.email}`}
+            method="POST"
+            className="rounded-lg border border-white/10 bg-slate-900/80 p-6"
+          >
+            <input type="hidden" name="_subject" value="New portfolio contact message" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
             <div className="grid gap-5 sm:grid-cols-2">
               <label className="grid gap-2 text-sm font-medium text-slate-200">
                 Name
                 <input
                   type="text"
                   name="name"
+                  required
                   className="rounded-md border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-300"
                   placeholder="Your name"
                 />
@@ -48,6 +57,7 @@ export function Contact() {
                 <input
                   type="email"
                   name="email"
+                  required
                   className="rounded-md border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-300"
                   placeholder="you@example.com"
                 />
@@ -58,6 +68,7 @@ export function Contact() {
               <textarea
                 name="message"
                 rows={5}
+                required
                 className="resize-none rounded-md border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-300"
                 placeholder="Tell me about your project"
               />

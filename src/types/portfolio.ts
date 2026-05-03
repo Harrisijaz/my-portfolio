@@ -11,6 +11,8 @@ export interface SkillGroup {
 export interface Project {
   title: string
   category: string
+  industry?: string
+  role?: string
   description: string
   stack: string[]
   features: string[]

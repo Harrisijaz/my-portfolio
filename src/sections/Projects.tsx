@@ -8,8 +8,8 @@ export function Projects() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Projects"
-          title="Selected work for backend-heavy full-stack delivery"
-          description="Each project highlights practical business workflows, secure API design, and implementation choices that matter to freelance clients."
+          title="Selected full-stack products across SaaS, CRM, and marketplaces"
+          description="Production projects covering user-facing platforms, provider portals, admin systems, secure APIs, subscriptions, and AI-assisted workflows."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           {projects.map((project, index) => (

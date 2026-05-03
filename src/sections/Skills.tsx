@@ -7,8 +7,8 @@ export function Skills() {
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Skills"
-          title="Technology stack built around Spring Boot and React"
-          description="A focused stack for secure backend development, full-stack applications, databases, and delivery workflows."
+          title="Technology stack for modern full-stack products"
+          description="A practical stack for building Next.js frontends, Laravel backends, mobile apps, AI integrations, SaaS workflows, and operational dashboards."
         />
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           {skillGroups.map((group) => (
