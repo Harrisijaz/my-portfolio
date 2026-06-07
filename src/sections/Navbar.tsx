@@ -9,7 +9,7 @@ export function Navbar({ activeSection }: NavbarProps) {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/85 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
         <a href="#home" className="text-base font-semibold text-white">
-          Haris Ijaz
+          Haris Arslan
         </a>
         <div className="hidden items-center gap-2 md:flex">
           {navItems.map((item) => {

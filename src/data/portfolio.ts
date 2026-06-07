@@ -115,6 +115,22 @@ export const projects: Project[] = [
     ],
   },
   {
+    title: 'Verdant Cup Cafe',
+    category: 'Frontend',
+    industry: 'Cafe / Restaurant',
+    role: 'React and TypeScript Developer',
+    description:
+      'A responsive React and TypeScript cafe website with a warm premium design, built using Vite, Tailwind CSS, React Router, Framer Motion, and Lucide icons.',
+    stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'React Router', 'Framer Motion', 'Lucide Icons'],
+    features: [
+      'Home, About, Menu, and Contact pages with animated page transitions',
+      'Reusable components, categorized menu cards, and shared data files for easy content updates',
+      'Contact form with validation for customer inquiries',
+      'Custom menu item form that saves added items in browser localStorage',
+    ],
+    liveUrl: 'https://cafe-website-steel-haris.vercel.app/',
+  },
+  {
     title: 'Hurak',
     category: 'EdTech Marketplace',
     industry: 'EdTech / E-Learning',

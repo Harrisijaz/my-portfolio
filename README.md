@@ -1,6 +1,6 @@
-# Haris Ijaz Portfolio
+# Haris Arslan Portfolio
 
-Professional portfolio website for Haris Ijaz, a Java Spring Boot and React Developer. The site highlights backend expertise, full-stack project work, technical skills, and contact details for freelance and remote opportunities.
+Professional portfolio website for Haris Arslan, a Java Spring Boot and React Developer. The site highlights backend expertise, full-stack project work, technical skills, and contact details for freelance and remote opportunities.
 
 ## Tech Stack
 
@@ -141,7 +141,7 @@ Recommended Vercel settings:
 
 ## Contact
 
-- Name: Haris Ijaz
+- Name: Haris Arslan
 - Title: Java Spring Boot & React Developer
 - Phone: 03214816800
 - Email: harisijaz278@gmail.com

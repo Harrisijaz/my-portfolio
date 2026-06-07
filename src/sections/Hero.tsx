@@ -7,7 +7,7 @@ export function Hero() {
             Full-Stack Web, Mobile & AI Developer
           </p>
           <h1 className="mt-5 max-w-4xl text-5xl font-bold leading-tight text-white sm:text-6xl lg:text-7xl">
-            Haris Ijaz
+            Haris Arslan
           </h1>
           <p className="mt-6 max-w-2xl text-xl leading-8 text-slate-200">
             I build scalable web platforms, mobile apps, AI workflows, and CMS/ecommerce solutions.
